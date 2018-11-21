@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">ConstraintLayoutsPres</string>
+
+    <string name="hello">Bonjour</string>
+    <string name="hi">Mes salutations</string>
+    <string name="world">le monde</string>
+</resources>

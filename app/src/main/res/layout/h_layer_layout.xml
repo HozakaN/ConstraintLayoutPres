@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:id="@+id/rootContent">
+
+    <android.support.constraint.Layer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layer1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="316dp"
+            android:layout_marginStart="76dp">
+
+        <Button
+                android:id="@+id/moveContentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="move content"/>
+        <TextView
+                android:id="@+id/movedTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="moved content"/>
+
+    </android.support.constraint.Layer>
+
+    <android.support.constraint.Layer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layer2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="528dp"
+            android:layout_marginEnd="84dp">
+
+        <Button
+                android:id="@+id/moveSecondButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="move second content"/>
+        <TextView
+                android:id="@+id/movedAgainTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I will be moved"/>
+    </android.support.constraint.Layer>
+
+</android.support.constraint.ConstraintLayout>
